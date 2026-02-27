@@ -12,7 +12,7 @@ resource "aws_instance" "terraform" {
 }
 
 resource "aws_security_group" "allow_all_traffic" {
-  name        = "Allow_all_traffic"
+  name        = "Allow_all_roboshop"
   description = "It will allow all traffic for inbound and outbound"
 
   egress {
